@@ -2,7 +2,6 @@ import spacy
 import argparse
 
 def anonymize_text(text, model="en_core_web_lg"):
-    """Basic anonymization function using spaCy NER"""
     nlp = spacy.load(model)
     doc = nlp(text)
     
