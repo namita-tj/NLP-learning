@@ -1,6 +1,5 @@
 import spacy
 from PyPDF2 import PdfReader
-import argparse
 
 def keyword_extractor():
   article=input("Enter path to the article : ").strip()
